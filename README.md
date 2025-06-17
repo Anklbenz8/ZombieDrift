@@ -23,7 +23,6 @@
 | **`RepairState`** | Восстановление машины (удаление старой → создание новой → переход в `GetReadyState`) |
 | **`FinalizeState`** | Очистка: удаление карты, ботов, машин |
 
-## Ключевые системы
 - **`SaveLoadSystem`** и **`AdsSystem`** → реализованы через паттерн **Стратегия**
 - Эффекты/партиклы → **Pool of Objects**
 - Настройки → **Scriptable Objects** (папка `ZombieDrift/Config`)
