@@ -1,28 +1,32 @@
-# ZombieDrift
-на прототип на тест мертик
+## Описание сцен
+Проект включает две основные сцены:
+- `Garage`
+- `Gameplay`
 
-1. Две сцены Garage и Gameplay 
+Для внедрения зависимостей используется **Zenject**.
 
-В проекте используется DI контейнер (Zenject)
+## Управление сценой через стейт-машину
+Сцена `Gameplay` управляется стейт-машиной. Состояния находятся в:  
+`/Assets/ZombieDrift/Scripts/GameplayScene/GameScenario/States`
 
-Сценой управляет стейт машина
+### Состояния GameplayScenario
+| Состояние | Описание |
+|-----------|----------|
+| **`Entry`** | Запускает `GameplayScenario` |
+| **`ConstructState`** | Инициализация, загрузка сохранений, создание ботов, загрузка карты и машины |
+| **`MenuState`** | Главное меню (на фоне карты с выбранным авто) |
+| **`GetReadyState`** | Онбординг перед игрой (UI) |
+| **`GameplayState`** | Основной геймплей: механики, подсчёт очков, определение победы/поражения |
+| **`PauseState`** | Пауза (через `PauseService`, который управляет объектами с `IPauseSensitive`) |
+| **`WinState`** | UI победы + сохранение прогресса |
+| **`LoseState`** | UI поражения + сохранение прогресса |
+| **`RepairState`** | Восстановление машины (удаление старой → создание новой → переход в `GetReadyState`) |
+| **`FinalizeState`** | Очистка: удаление карты, ботов, машин |
 
-Entry - запускает GameplayScenario
-Состояния Gameplay лежат тут 
-\Assets\ZombieDrift\Scripts\GameplayScene\GameScenario\States
+## Ключевые системы
+- **`SaveLoadSystem`** и **`AdsSystem`** → реализованы через паттерн **Стратегия**
+- Эффекты/партиклы → **Pool of Objects**
+- Настройки → **Scriptable Objects** (папка `ZombieDrift/Config`)
 
-ConstructState - инициализация, загрузка сохраниений. Создание ботов на текущей карте, нужной карты, нужной машины
-MenuState - состояние главного меню (Шлавное меню на фоне карты и выбраного авто)
-GetReadyState - онбординг в игру Ui онбординга
-GameplayState - запуск игры, определение выиграл/проиграл, подсчет очков и прочее
-PauseState - сотояние паузы (пауза работает чере pauseService ( содержит все обьекты который IPauseSensitive не обновляет их есть isPause = true)
-WinState - Ui выигрыша, сохраниение
-LoseState - Ui проигрыша, сохраниение 
-RepairState - В случае есть пользователь покупает возражение, удаляет разбитое авто, создает новой -> после переходит в GetreadyState 
-FinalizeState  - удаление карты, ботов авто и прочего
-
-Сохранение SaveLoadSystem, AdsSystem  - реализованны через Стратегию
-Создание эффетов, хитнов, партиктов и пр. -> pool of obj
-Для настройки всего - используются конфиги в виде SO все тут -> ZombieDrift/Config
-
-Видео gameplay https://youtu.be/FUUzK1Hbu0I?si=vcMRpo7qw_8_YODB
+## Геймплей
+Видео: [YouTube](https://youtu.be/FUUzK1Hbu0I?si=vcMRpo7qw_8_YODB)
