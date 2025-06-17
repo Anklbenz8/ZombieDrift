@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: StringsTable_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: d7be84d8ad09184468be55e0cb86401c, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 6684281387246944283
+  m_TableData:
+  - m_Id: 20714254336
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 590355263488
+    m_Localized: Select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730994470912
+    m_Localized: Selected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1048343900160
+    m_Localized: Garage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1130564841472
+    m_Localized: Tap to play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1408106131456
+    m_Localized: Restart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2022412283904
+    m_Localized: Repair?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2252130119680
+    m_Localized: Wasted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2444967440384
+    m_Localized: Cleared
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3509427269632
+    m_Localized: 'Location cleared
+
+      {0}/{1} '
+    m_Metadata:
+      m_Items:
+      - rid: 6684281387246944283
+  - m_Id: 3814197981184
+    m_Localized: Stage {0}
+    m_Metadata:
+      m_Items:
+      - rid: 6684281387246944283
+  - m_Id: 4301207007232
+    m_Localized: Skulls multiplier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2134124243087360
+    m_Localized: Combo x {0}
+    m_Metadata:
+      m_Items:
+      - rid: 6684281387246944283
+  - m_Id: 2183713746743296
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12948201588551680
+    m_Localized: Paused
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12948513011429376
+    m_Localized: Sounds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16290105784954880
+    m_Localized: Buy for {0}
+    m_Metadata:
+      m_Items:
+      - rid: 6684281387246944283
+  - m_Id: 16290985141760000
+    m_Localized: Combo multiplier x{0}
+    m_Metadata:
+      m_Items:
+      - rid: 6684281387246944283
+  - m_Id: 40688384887218176
+    m_Localized: Watch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47910178413076480
+    m_Localized: DRIVE TO SURVIVE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55392085983879168
+    m_Localized: Loading...
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 6684281387246944283
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 
+        m_SharedEntries:
+        - id: 3814197981184
+        - id: 3509427269632
+        - id: 2134124243087360
+        - id: 16290105784954880
+        - id: 16290985141760000

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2debd338a77b3c4cb0f0f3ce972efb9, type: 3}
+  m_Name: ZombiesConfig
+  m_EditorClassIdentifier: 
+  _speedIntervalMinMax: {x: 0.7, y: 1}
+  _refreshTargetRate: 0.15
+  _reactDistance: 8
+  _zombies:
+  - {fileID: 5963032304932974624, guid: b29933d0642fc554c967bdc921249e34, type: 3}
+  - {fileID: 3127976474684794967, guid: ebe02dd966890e047bdf0b2a441ed5f9, type: 3}
+  - {fileID: 6563453385922041941, guid: e58a3d23df7de1d439a2b936472dbd4b, type: 3}
+  - {fileID: 8733131591022477459, guid: bf5777f6624971645835711040f51386, type: 3}
+  - {fileID: 571144545544171383, guid: 0b8c6eaad1e648c448e9347cb840257d, type: 3}
+  - {fileID: 8412202759195920493, guid: b75b9856b20ba33438d4df3c2e84c289, type: 3}
+  - {fileID: 3925322149527110813, guid: d4f996b3c78fd2441b15ab7866e4fa24, type: 3}
+  - {fileID: 1438021457438551354, guid: e57cd4b8071176f4aa4488ecf62e0235, type: 3}
+  - {fileID: 3395803277949494798, guid: 2b9e8e8e71a830142b336117bcf1c305, type: 3}
+  - {fileID: 7256468357447512743, guid: 4a2fbffed1d61354baf69746c2ca72a8, type: 3}
+  - {fileID: 3364296027242884935, guid: 3c8b175b9b5ce304f924e99fca4a90f5, type: 3}
+  - {fileID: 1124890686713438695, guid: f179669dc1daa5a49a344d7a37408d08, type: 3}
+  - {fileID: 4056320438330809093, guid: e75371fce2e001c43b121696913df4e6, type: 3}
+  - {fileID: 1773517718408725609, guid: 218c774a5c359d747945463274e81d74, type: 3}
+  - {fileID: 7779070351008741357, guid: 14ea46cfefe91d642944c4d8135507b4, type: 3}
+  - {fileID: 8056712808253712516, guid: ec09f0bf92dc2f540b64e36a05ae2adc, type: 3}
+  - {fileID: 2640953020956421969, guid: 7add8a0448b3b7b419330661cbd86b8d, type: 3}
+  - {fileID: 8838746893663308762, guid: 59b07534b16295247836334576239d9f, type: 3}

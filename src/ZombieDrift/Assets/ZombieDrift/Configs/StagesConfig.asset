@@ -1,0 +1,286 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af3a605eff91d5f4a85ffeecb21081ee, type: 3}
+  m_Name: StagesConfig
+  m_EditorClassIdentifier: 
+  _stages:
+  - mapsRotationAxisY: 45
+    mapLightDirection: {x: 85, y: -195, z: 0}
+    lightColor: {r: 1, g: 1, b: 1, a: 1}
+    mapResourcePaths:
+    - Maps/01.1
+    - Maps/01.2
+  - mapsRotationAxisY: 0
+    mapLightDirection: {x: 85, y: -195, z: 0}
+    lightColor: {r: 1, g: 1, b: 1, a: 1}
+    mapResourcePaths:
+    - Maps/02.1
+    - Maps/02.2
+  - mapsRotationAxisY: 0
+    mapLightDirection: {x: 85, y: -195, z: 0}
+    lightColor: {r: 1, g: 1, b: 1, a: 1}
+    mapResourcePaths:
+    - Maps/03.1
+    - Maps/03.2
+  - mapsRotationAxisY: 0
+    mapLightDirection: {x: 85, y: -195, z: 0}
+    lightColor: {r: 1, g: 1, b: 1, a: 1}
+    mapResourcePaths:
+    - Maps/04.1
+    - Maps/04.2
+  - mapsRotationAxisY: 0
+    mapLightDirection: {x: 85, y: -195, z: 0}
+    lightColor: {r: 1, g: 1, b: 1, a: 1}
+    mapResourcePaths:
+    - Maps/05.1
+    - Maps/05.2
+  - mapsRotationAxisY: 0
+    mapLightDirection: {x: 85, y: -195, z: 0}
+    lightColor: {r: 1, g: 1, b: 1, a: 1}
+    mapResourcePaths:
+    - Maps/06.1
+    - Maps/06.2
+  - mapsRotationAxisY: 0
+    mapLightDirection: {x: 85, y: -195, z: 0}
+    lightColor: {r: 1, g: 1, b: 1, a: 1}
+    mapResourcePaths:
+    - Maps/07.1
+    - Maps/07.2
+  - mapsRotationAxisY: 0
+    mapLightDirection: {x: 85, y: -195, z: 0}
+    lightColor: {r: 1, g: 1, b: 1, a: 1}
+    mapResourcePaths:
+    - Maps/08.1
+    - Maps/08.2
+  - mapsRotationAxisY: 0
+    mapLightDirection: {x: 85, y: -195, z: 0}
+    lightColor: {r: 1, g: 1, b: 1, a: 1}
+    mapResourcePaths:
+    - Maps/09.1
+    - Maps/09.2
+  - mapsRotationAxisY: 0
+    mapLightDirection: {x: 85, y: -195, z: 0}
+    lightColor: {r: 1, g: 1, b: 1, a: 1}
+    mapResourcePaths:
+    - Maps/10.1
+    - Maps/10.2
+  - mapsRotationAxisY: 0
+    mapLightDirection: {x: 85, y: -195, z: 0}
+    lightColor: {r: 1, g: 1, b: 1, a: 1}
+    mapResourcePaths:
+    - Maps/11.1
+    - Maps/11.2
+  - mapsRotationAxisY: 0
+    mapLightDirection: {x: 85, y: -195, z: 0}
+    lightColor: {r: 1, g: 1, b: 1, a: 1}
+    mapResourcePaths:
+    - Maps/12.1
+    - Maps/12.2
+  - mapsRotationAxisY: 0
+    mapLightDirection: {x: 85, y: -195, z: 0}
+    lightColor: {r: 1, g: 1, b: 1, a: 1}
+    mapResourcePaths:
+    - Maps/13.1
+    - Maps/13.2
+  - mapsRotationAxisY: 0
+    mapLightDirection: {x: 85, y: -195, z: 0}
+    lightColor: {r: 1, g: 1, b: 1, a: 1}
+    mapResourcePaths:
+    - Maps/14.2
+    - Maps/14.1
+  - mapsRotationAxisY: 45
+    mapLightDirection: {x: 75, y: -175, z: 0}
+    lightColor: {r: 1, g: 0.5882353, b: 0.23921569, a: 1}
+    mapResourcePaths:
+    - Maps/04.1
+    - Maps/04.2
+  - mapsRotationAxisY: 45
+    mapLightDirection: {x: 75, y: -175, z: 0}
+    lightColor: {r: 1, g: 0.5882353, b: 0.23921569, a: 1}
+    mapResourcePaths:
+    - Maps/06.1
+    - Maps/06.2
+  - mapsRotationAxisY: 45
+    mapLightDirection: {x: 75, y: -175, z: 0}
+    lightColor: {r: 1, g: 0.5882353, b: 0.23921569, a: 1}
+    mapResourcePaths:
+    - Maps/07.1
+    - Maps/07.2
+  - mapsRotationAxisY: 45
+    mapLightDirection: {x: 75, y: -175, z: 0}
+    lightColor: {r: 1, g: 0.5882353, b: 0.23921569, a: 1}
+    mapResourcePaths:
+    - Maps/08.1
+    - Maps/08.2
+  - mapsRotationAxisY: 45
+    mapLightDirection: {x: 75, y: -175, z: 0}
+    lightColor: {r: 1, g: 0.5882353, b: 0.23921569, a: 1}
+    mapResourcePaths:
+    - Maps/09.1
+    - Maps/09.2
+  - mapsRotationAxisY: 45
+    mapLightDirection: {x: 75, y: -175, z: 0}
+    lightColor: {r: 1, g: 0.5882353, b: 0.23921569, a: 1}
+    mapResourcePaths:
+    - Maps/10.1
+    - Maps/10.2
+  - mapsRotationAxisY: 45
+    mapLightDirection: {x: 75, y: -175, z: 0}
+    lightColor: {r: 1, g: 0.5882353, b: 0.23921569, a: 1}
+    mapResourcePaths:
+    - Maps/11.1
+    - Maps/11.2
+  - mapsRotationAxisY: 45
+    mapLightDirection: {x: 75, y: -175, z: 0}
+    lightColor: {r: 1, g: 0.5882353, b: 0.23921569, a: 1}
+    mapResourcePaths:
+    - Maps/12.1
+    - Maps/12.2
+  - mapsRotationAxisY: 45
+    mapLightDirection: {x: 75, y: -175, z: 0}
+    lightColor: {r: 1, g: 0.5882353, b: 0.23921569, a: 1}
+    mapResourcePaths:
+    - Maps/13.1
+    - Maps/13.2
+  - mapsRotationAxisY: 45
+    mapLightDirection: {x: 75, y: -175, z: 0}
+    lightColor: {r: 1, g: 0.5882353, b: 0.23921569, a: 1}
+    mapResourcePaths:
+    - Maps/14.1
+    - Maps/14.2
+  - mapsRotationAxisY: 90
+    mapLightDirection: {x: 95, y: -195, z: 0}
+    lightColor: {r: 0.3137255, g: 0.39607844, b: 0.5254902, a: 1}
+    mapResourcePaths:
+    - Maps/08.2
+    - Maps/07.1
+  - mapsRotationAxisY: 90
+    mapLightDirection: {x: 95, y: -195, z: 0}
+    lightColor: {r: 0.3137255, g: 0.39607844, b: 0.5254902, a: 1}
+    mapResourcePaths:
+    - Maps/07.2
+    - Maps/08.1
+  - mapsRotationAxisY: 90
+    mapLightDirection: {x: 95, y: -195, z: 0}
+    lightColor: {r: 0.3137255, g: 0.39607844, b: 0.5254902, a: 1}
+    mapResourcePaths:
+    - Maps/06.2
+    - Maps/09.1
+  - mapsRotationAxisY: 90
+    mapLightDirection: {x: 95, y: -195, z: 0}
+    lightColor: {r: 0.3137255, g: 0.39607844, b: 0.5254902, a: 1}
+    mapResourcePaths:
+    - Maps/06.1
+    - Maps/09.2
+  - mapsRotationAxisY: 90
+    mapLightDirection: {x: 95, y: -195, z: 0}
+    lightColor: {r: 0.3137255, g: 0.39607844, b: 0.5254902, a: 1}
+    mapResourcePaths:
+    - Maps/10.1
+    - Maps/05.2
+  - mapsRotationAxisY: 90
+    mapLightDirection: {x: 95, y: -195, z: 0}
+    lightColor: {r: 0.3137255, g: 0.39607844, b: 0.5254902, a: 1}
+    mapResourcePaths:
+    - Maps/10.2
+    - Maps/05.1
+  - mapsRotationAxisY: 90
+    mapLightDirection: {x: 95, y: -195, z: 0}
+    lightColor: {r: 0.3137255, g: 0.39607844, b: 0.5254902, a: 1}
+    mapResourcePaths:
+    - Maps/11.1
+    - Maps/04.2
+  - mapsRotationAxisY: 90
+    mapLightDirection: {x: 95, y: -195, z: 0}
+    lightColor: {r: 0.3137255, g: 0.39607844, b: 0.5254902, a: 1}
+    mapResourcePaths:
+    - Maps/04.1
+    - Maps/11.2
+  - mapsRotationAxisY: 90
+    mapLightDirection: {x: 95, y: -195, z: 0}
+    lightColor: {r: 0.3137255, g: 0.39607844, b: 0.5254902, a: 1}
+    mapResourcePaths:
+    - Maps/12.1
+    - Maps/03.2
+  - mapsRotationAxisY: 90
+    mapLightDirection: {x: 95, y: -195, z: 0}
+    lightColor: {r: 0.3137255, g: 0.39607844, b: 0.5254902, a: 1}
+    mapResourcePaths:
+    - Maps/12.2
+    - Maps/03.1
+  - mapsRotationAxisY: 90
+    mapLightDirection: {x: 95, y: -195, z: 0}
+    lightColor: {r: 0.3137255, g: 0.39607844, b: 0.5254902, a: 1}
+    mapResourcePaths:
+    - Maps/14.2
+    - Maps/13.1
+  - mapsRotationAxisY: 90
+    mapLightDirection: {x: 95, y: -195, z: 0}
+    lightColor: {r: 0.3137255, g: 0.39607844, b: 0.5254902, a: 1}
+    mapResourcePaths:
+    - Maps/13.2
+    - Maps/14.1
+  - mapsRotationAxisY: 90
+    mapLightDirection: {x: 95, y: -195, z: 0}
+    lightColor: {r: 1, g: 0.5882353, b: 0.23921569, a: 1}
+    mapResourcePaths:
+    - Maps/10.2
+    - Maps/11.1
+  - mapsRotationAxisY: 90
+    mapLightDirection: {x: 95, y: -195, z: 0}
+    lightColor: {r: 1, g: 0.5882353, b: 0.23921569, a: 1}
+    mapResourcePaths:
+    - Maps/05.1
+    - Maps/12.2
+  - mapsRotationAxisY: 90
+    mapLightDirection: {x: 95, y: -195, z: 0}
+    lightColor: {r: 1, g: 0.5882353, b: 0.23921569, a: 1}
+    mapResourcePaths:
+    - Maps/10.2
+    - Maps/13.2
+  - mapsRotationAxisY: 90
+    mapLightDirection: {x: 95, y: -195, z: 0}
+    lightColor: {r: 1, g: 0.5882353, b: 0.23921569, a: 1}
+    mapResourcePaths:
+    - Maps/04.2
+    - Maps/07.2
+  - mapsRotationAxisY: 90
+    mapLightDirection: {x: 95, y: -195, z: 0}
+    lightColor: {r: 1, g: 0.5882353, b: 0.23921569, a: 1}
+    mapResourcePaths:
+    - Maps/11.1
+    - Maps/14.2
+  - mapsRotationAxisY: 90
+    mapLightDirection: {x: 95, y: -195, z: 0}
+    lightColor: {r: 1, g: 0.5882353, b: 0.23921569, a: 1}
+    mapResourcePaths:
+    - Maps/08.1
+    - Maps/09.2
+  - mapsRotationAxisY: 90
+    mapLightDirection: {x: 75, y: -175, z: 0}
+    lightColor: {r: 1, g: 1, b: 1, a: 1}
+    mapResourcePaths:
+    - Maps/09.1
+    - Maps/10.1
+  - mapsRotationAxisY: 90
+    mapLightDirection: {x: 75, y: -175, z: 0}
+    lightColor: {r: 1, g: 1, b: 1, a: 1}
+    mapResourcePaths:
+    - Maps/08.1
+    - Maps/07.1
+    - Maps/12.1
+  - mapsRotationAxisY: 90
+    mapLightDirection: {x: 75, y: -175, z: 0}
+    lightColor: {r: 1, g: 1, b: 1, a: 1}
+    mapResourcePaths:
+    - Maps/03.1
+    - Maps/08.2

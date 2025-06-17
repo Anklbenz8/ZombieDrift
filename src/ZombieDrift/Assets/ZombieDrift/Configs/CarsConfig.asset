@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a470b093b3970c4d86546607538b598, type: 3}
+  m_Name: CarsConfig
+  m_EditorClassIdentifier: 
+  _lockedLayerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  _purchasedLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  _cars:
+  - car: {fileID: 9121382191187427775, guid: cf9c36ef83bdda3459db603b75b8ff9c, type: 3}
+    carResourcesPath: Cars/HatchSafety
+    price: 0
+  - car: {fileID: 5359905678222414327, guid: 9174c7e59c4e4c24783113ce799247e7, type: 3}
+    carResourcesPath: Cars/HatchSport
+    price: 350
+  - car: {fileID: 3924639168025395000, guid: f81728550e5948d47b2789b65f7ffb5f, type: 3}
+    carResourcesPath: Cars/SedanPolice
+    price: 550
+  - car: {fileID: 6421066535242330801, guid: dcc5b9f5df171de42a516f0f03aad24e, type: 3}
+    carResourcesPath: Cars/Muscle
+    price: 800
+  - car: {fileID: 6151549275395355848, guid: f091d53a1ca390a4987c2380eee7aa4a, type: 3}
+    carResourcesPath: Cars/SportRed
+    price: 1100
+  - car: {fileID: 5171205124666613345, guid: ff17847beef072344b3ae6b2324c2cf3, type: 3}
+    carResourcesPath: Cars/Pickup
+    price: 1500
+  - car: {fileID: 4928687114985831308, guid: fdc6cccc76f64cb4a9706dcfafa384fe, type: 3}
+    carResourcesPath: Cars/Truck
+    price: 2000
+  - car: {fileID: 8025457191570552064, guid: 840583c32fb81364799db960aaccf288, type: 3}
+    carResourcesPath: Cars/Exotic
+    price: 3000

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74351148aa9df764c831f9ce4060ae4d, type: 3}
+  m_Name: UiSoundConfig
+  m_EditorClassIdentifier: 
+  _soundPrefab: {fileID: 3600266624948595675, guid: 3d0d03fe89925484f860ae6e413a4b31, type: 3}
+  _poolAmount: 2
+  _buttonAudioClip: {fileID: 8300000, guid: b86c4aac37bfb2e4e9ef881340125fb4, type: 3}
+  _winAudioClip: {fileID: 8300000, guid: 29d70f587fd6cbf4398c8d9f65cbac7c, type: 3}
+  _loseAudioClip: {fileID: 8300000, guid: 999ff923145eaf64395b5ed579bb7587, type: 3}
+  _carSelectAudioClip: {fileID: 8300000, guid: b86c4aac37bfb2e4e9ef881340125fb4, type: 3}
+  _carBuyAudioClip: {fileID: 8300000, guid: 6d23a7fa11cabf046bc97bd7dee48337, type: 3}
+  _coinAudioClip: {fileID: 8300000, guid: 549e13fde6b1b7f488bd5fba3edded0e, type: 3}
+  _repairAudioClip: {fileID: 8300000, guid: 0babf33efd452644399f0a4cd823e3fa, type: 3}

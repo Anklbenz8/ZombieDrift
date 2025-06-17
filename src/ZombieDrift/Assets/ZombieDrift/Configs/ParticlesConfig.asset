@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 648e25b3d141a5b4280f459d102dbe90, type: 3}
+  m_Name: ParticlesConfig
+  m_EditorClassIdentifier: 
+  _blood: {fileID: 5833841967143369310, guid: fa7d00c7cb95f394dbec0d1afabff0b7, type: 3}
+  _carHit: {fileID: 892901137987391585, guid: ef51ef8fef114e24480fc65080c52450, type: 3}

@@ -1,0 +1,1 @@
+﻿namespace SaveLoadSystemNamespace {	public interface ISaveLoadObject {		public string objectKey { get; }		public string GetSaveLoadData();		public void RestoreValues(string loadData);	}}

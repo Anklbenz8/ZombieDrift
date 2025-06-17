@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2bec6bb4eade134da902a5509e1d274, type: 3}
+  m_Name: ProjectConfig
+  m_EditorClassIdentifier: 
+  _isDebugEnable: 0
+  _isFpsEnabled: 0
+  _targetFramerate: 120
+  _rootCanvasPrefab: {fileID: 2990162597087632297, guid: b75e8221f616ae14484b0ef2d026c3ca, type: 3}
+  _fpsCounterPrefab: {fileID: 8686169848404702294, guid: 73d162048c5e9d446b33d8d0a0deb44a, type: 3}
+  _guiLogPrefab: {fileID: 669447222992118247, guid: ec009695d6f7f4d45a1205741f19d272, type: 3}

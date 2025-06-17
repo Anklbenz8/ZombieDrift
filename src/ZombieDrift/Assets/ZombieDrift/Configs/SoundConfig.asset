@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16508bb6efcf7534eb8ef932e72221e2, type: 3}
+  m_Name: SoundConfig
+  m_EditorClassIdentifier: 
+  _soundPrefab: {fileID: 3600266624948595675, guid: fbd0d4d38ef75654a9a37c672caa7ec1, type: 3}
+  _poolAmount: 4
+  _voiceFrecuencyMinMax: {x: 800, y: 3000}
+  _zombieVoicesArray:
+  - {fileID: 8300000, guid: c2d695a7c515935469d5732a83f6de88, type: 3}
+  - {fileID: 8300000, guid: 06a7f994f76d59448b7f901d96656c97, type: 3}
+  - {fileID: 8300000, guid: 133f816c44682c24ab45d85f374decfe, type: 3}
+  - {fileID: 8300000, guid: 476a01b7a9034f34098d330b9e930820, type: 3}
+  - {fileID: 8300000, guid: 4726ac19cff02d641aca8fce9d996589, type: 3}
+  - {fileID: 8300000, guid: e22b316622bc9004ea74dadaaf476b6d, type: 3}
+  _hitSoundsArray:
+  - {fileID: 8300000, guid: b86c4aac37bfb2e4e9ef881340125fb4, type: 3}
+  - {fileID: 8300000, guid: e0a5b73b7d293d6468938e7ede75f5c1, type: 3}
+  - {fileID: 8300000, guid: aa4cea512ea161140b9d9c6f8cbe13db, type: 3}
+  _carChashArray:
+  - {fileID: 8300000, guid: 507898d38999ffc408dd71aa42267648, type: 3}
+  - {fileID: 8300000, guid: 874bf07b4283bab44a342f5f6dcc5d27, type: 3}
+  - {fileID: 8300000, guid: cf54686098695a24aae575f9cf13c6fc, type: 3}
+  _carEngineClip: {fileID: 8300000, guid: 58039d0dad0b7b544b804da1e1a0f3a6, type: 3}
+  _tyresClip: {fileID: 8300000, guid: c8d86b9eee2fb6643aa17abbc1c67e78, type: 3}
